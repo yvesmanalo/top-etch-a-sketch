@@ -2,10 +2,19 @@
   box-sizing: border-box;
 }
 
+h1,
+main {
+  text-align: center;
+}
+
+#note {
+  font-style: italic;
+}
+
 #grid-container {
-  width: 500px;
-  height: 500px;
-  margin: auto;
+  width: 600px;
+  height: 600px;
+  margin: 1.5em auto;
   display: flex;
   flex-wrap: wrap;
 }
